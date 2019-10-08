@@ -1,0 +1,51 @@
+
+    form {
+  border: 3px solid #f1f1f1;
+  background: white;
+}
+
+
+input[type=text], input[type=password],input[type = email] {
+  width: 50%;
+  padding: 14px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  right: 500px;
+  bottom: 500px;
+  top: 500px;
+  padding: 14px 16px;
+  width: 25%;
+
+  display: block;
+}
+
+
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float:center;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+  
